@@ -35,18 +35,32 @@ section {
     display: block;
     background-color: azure;
     padding: 10px;
-}
-
-p {
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 400px;
 
 }
 
-button {
-
-}
 
 .hidden {
-    display: none;
+  
+}
+
+@media (min-width: 700px){
+    main {
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-gap; 20px;
+    }
+}
+
+#image-select {
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-weight: 800;
+    border-radius 3px;
+}
+
+#image-display {
+    width: 100%;
 }

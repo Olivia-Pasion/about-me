@@ -16,7 +16,7 @@
     </header>
 
     <main>
-        <h1>About Me</h1>
+        <h1 id = "my-loves">My 2 Loves</h1>
 
 
         <section>
@@ -29,24 +29,48 @@
                 enjoy pictures of my other cats following the buttons below!
 
             </p>
-            <input type="checkbox"> I agree to Terms of Service
+
+            <p>
+
+                <label>
+
+                <input id= "tos-checkbox" type="checkbox"> I agree to look at cats
+            
+                </label>
+            
+            </p>
+            <p> Click for Cats! </p>
+            <p>
+                <button id = "show-answer-button">Show Answer</button>
+            </p>
 
         </section>
-       
 
-        <button>Show Answer</button>
+        <section id="cat-section" class="hidden">
 
-        <section class="hidden">
+            <h2>My Cats</h2>
 
-            <img src="">
+            <div id="cat-container">
 
-            <classList></classList>
+                <p>
+                    <img id="image-display" src="assets/cats/Rosie.png">
+                </p>
+                <p id="name-display">blank</p>
 
-            <input>
+            </div>
 
-
+            <h2>Pick your cat</h2>
+            <p>
+                <label>
+                    Select the cat:
+                    <select id="image-select">
+                        <option value="Rosie.png" selected>Rosie</option>
+                        <option>Tiger</option>
+                        <option>Velvet</option>
+                    </select>
+                </label>
+            </p>
         </section>
-
 
     </main>
 
