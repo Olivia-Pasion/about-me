@@ -28,3 +28,25 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+
+section {
+
+    display: block;
+    background-color: azure;
+    padding: 10px;
+}
+
+p {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+button {
+
+}
+
+.hidden {
+    display: none;
+}
