@@ -24,6 +24,10 @@ imageSelect.addEventListener('change', () => {
     imageDisplay.src = src;
 });
 
+nameInput.addEventListener('input', () => {
+    nameDisplay.textContent = nameInput.value;
+});
+
     // get info from user input
     // use user input to update state
     // update DOM to reflect the new state
