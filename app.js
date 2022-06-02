@@ -19,6 +19,10 @@ showAnswerButton.addEventListener('click', () => {
     catSection.classList.remove('hidden');
 });
 
+imageSelect.addEventListener('change', () => {
+    const src = 'assets/cats/' + imageSelect.value;
+    imageDisplay.src = src;
+});
 
     // get info from user input
     // use user input to update state
