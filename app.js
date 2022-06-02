@@ -15,6 +15,11 @@ tosCheckbox.addEventListener('change', () => {
     showAnswerButton.disabled = !tosCheckbox.checked;
 });
 
+showAnswerButton.addEventListener('click', () => {
+    catSection.classList.remove('hidden');
+});
+
+
     // get info from user input
     // use user input to update state
     // update DOM to reflect the new state
