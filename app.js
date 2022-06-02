@@ -1,6 +1,6 @@
 // grab DOM elements
 const tosCheckbox = document.getElementById('tos-checkbox');
-const showAnswerButton = document.getElementById('show-answer-button')
+const showAnswerButton = document.getElementById('show-answer-button');
 const catSection = document.getElementById('cat-section');
 
 const nameInput = document.getElementById('name-input');
